@@ -1,1 +1,12 @@
 @import url(./global.css);
+
+main section:nth-child(odd) {
+  display: flex;
+  flex-direction: row;
+}
+main section:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: var(--default-text-color);
+  color: var(--secondary-color);
+}
