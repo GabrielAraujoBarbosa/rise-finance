@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #9130F4;
+  --secondary-color: #121139;
+  --neutral-color: #F4F4F4;
+  --default-text-color: #FFFFFF;
+
+  --font-family: 'Inter';
+  
+  --font-size-h1: 54px;
+  --font-size-h2:45px;
+  --font-size-h3: 18px;
+
+  --font-weight-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  font-family: inherit;
+}
+body {
+  font-family: var(--font-family); 
+  color: var(--default-text-color);
+  background-color: var(--secondary-color);
+}
+
+.highlighted-text {
+  color: var(--primary-color);
+}
+.bold, h1, h2, h3 {
+  font-weight: var(--font-weight-bold);
+  color: var(--neutral-color);
+}
+h1 {
+  font-size: var(--font-size-h1);
+}
+h2 {
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
+}
