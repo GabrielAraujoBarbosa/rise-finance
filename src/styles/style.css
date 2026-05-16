@@ -1,12 +1,59 @@
 @import url(./global.css);
 
-main section:nth-child(odd) {
-  display: flex;
-  flex-direction: row;
+main section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
 }
 main section:nth-child(even) {
-  display: flex;
-  flex-direction: row-reverse;
   background-color: var(--default-text-color);
   color: var(--secondary-color);
+}
+
+main section .container-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 28px;
+}
+main section:last-child .container-content {
+    gap: 19px;
+    align-items: center;
+}
+
+.hero-section {
+    padding: 100px 0;
+    gap: 50px;
+}
+.hero-section .container-content {
+    width: 497px;
+}
+.hero-section .cta-button {
+    border: 1px solid var(--primary-color);
+    padding: 10px 25px;
+    transition: all 0.3s;
+}
+.hero-section .cta-button:hover {
+    background-color: var(--primary-color);
+}
+
+.benefits-section {
+    flex-direction: row-reverse;
+    gap: 100px;
+}
+.benefits-section h2 {
+    color: var(--secondary-color);
+}
+.benefits-section .container-content {
+    width: 607px;
+}
+
+.motivations-section {
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+.motivations-section .container-content {
+    width: 730px;
 }
