@@ -1,1 +1,54 @@
 @import url(./global.css);
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 126px;
+    padding: 80px 0;
+    border-top: 1px solid var(--neutral-color);
+}
+
+.footer-links {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.footer-column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #4D4D4D;
+}
+.footer-newsletter form label {
+    width: 190px;
+}
+.footer-newsletter .input-group {
+    display: flex;
+    gap: 150px;
+    align-items: stretch;
+}
+
+.footer-newsletter input[type="email"]::placeholder {
+    color: var(--neutral-color);
+}
+.footer-newsletter input[type="email"] {
+    background: transparent;
+    color: var(--neutral-color);
+}
+.footer-newsletter button[type="submit"] {
+    background: transparent;
+}
