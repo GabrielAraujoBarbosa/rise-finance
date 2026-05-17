@@ -3,6 +3,7 @@
   --secondary-color: #121139;
   --neutral-color: #F4F4F4;
   --default-text-color: #FFFFFF;
+  --selection-color: #8b54c2;
 
   --font-family: 'Inter';
   
@@ -27,7 +28,9 @@ body {
   color: var(--default-text-color);
   background-color: var(--secondary-color);
 }
-
+body::selection {
+  background-color: var(--selection-color);
+}
 .highlighted-text {
   color: var(--primary-color);
 }
