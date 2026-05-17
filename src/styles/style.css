@@ -5,8 +5,8 @@ header {
     justify-content: center;
     align-items: center;
     gap: 139px;
-
     padding: 46px 0;
+    box-shadow: 0 10px 4px -10px var(--primary-color);
 }
 header ul {
     display: flex;
@@ -22,7 +22,6 @@ header nav li:hover {
 .header-button {
     padding: 10px 20px;
     background-color: var(--primary-color);
-    border-radius: 10px;
     transition: all 0.3s;
 }
 .header-button:hover {

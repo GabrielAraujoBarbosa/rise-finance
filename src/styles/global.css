@@ -39,6 +39,9 @@ ul {
 .highlighted-text {
   color: var(--primary-color);
 }
+.rect-button {
+  border-radius: 10px;
+}
 .bold, h1, h2, h3 {
   font-weight: var(--font-weight-bold);
   color: var(--neutral-color);
