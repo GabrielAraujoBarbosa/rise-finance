@@ -4,6 +4,7 @@
   --neutral-color: #F4F4F4;
   --default-text-color: #FFFFFF;
   --button-primary-color-hover: #8020e0;
+  --selection-color: #8b54c2;
 
   --font-family: 'Inter';
   
@@ -32,8 +33,14 @@ body {
   color: var(--default-text-color);
   background-color: var(--secondary-color);
 }
+body::selection {
+  background-color: var(--selection-color);
+}
 ul {
   list-style-type: none;
+}
+a, button {
+  cursor: pointer;
 }
 
 .highlighted-text {
