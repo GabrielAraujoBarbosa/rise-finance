@@ -34,6 +34,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
   <li>CSS</li>
   <li>Git</li>
   <li>VS Code</li>
+  <li>Figma</li>
 </ul>
 
 ---
