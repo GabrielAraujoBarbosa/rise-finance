@@ -9,7 +9,7 @@
   |
   <a href="#-como-contribuir">Contribuir</a>
   |
- <a href="-autor">Autor</a> 
+ <a href="#-autor">Autor</a> 
 </p>
 
 ---
