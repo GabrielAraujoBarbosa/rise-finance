@@ -47,6 +47,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## Autor
+## 👤 Autor
 
 <a href="https://br.linkedin.com/in/gabriel-araujo-barbosa">Gabriel Araujo Barbosa</a>
